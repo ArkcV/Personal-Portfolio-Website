@@ -256,12 +256,12 @@ img {
 	row-gap: 1rem;
 }
 
-.home_social-icon {
+.home_social_icon {
 	font-size: 1.25rem;
 	color: var(--first-color)
 }
 
-.home_social-icon:hover {
+.home_social_icon:hover {
 	font-size: 1.25rem;
 	color: var(--first-color-alt)
 }
