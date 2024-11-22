@@ -317,7 +317,7 @@ img {
 
 /*==================== BUTTONS ====================*/
 
-.button{
+.button {
 	display: inline-block;
 	background-color: var(--first-color);
 	color: #fff;
@@ -326,118 +326,118 @@ img {
 	font-weight: var(--font-medium);
 }
 
-.button:hover{
+.button:hover {
 	background-color: var(--first-color-alt);
 }
 
-.button_icon{
+.button_icon {
 	font-size: 1.25rem;
 	margin-left: var(--mb-0-5);
 	transition: .3s;
 }
 
-.button--flex{
+.button--flex {
 	display: inline-flex;
 	align-items: center;
 }
 
 /*==================== ABOUT ====================*/
 
-.about_img{
+.about_img {
 	width: 200px;
 	border-radius: .5rem;
 	justify-content: center;
 	align-items: center;
 }
 
-.about_description{
+.about_description {
 	text-align: center;
 	margin-bottom: var(--mb-2-5);
 }
 
-.about_info{
+.about_info {
 	display: flex;
 	justify-content: space-evenly;
 	margin-bottom: var(--mb-2-5);
 }
 
-.about_info-title{
+.about_info-title {
 	font-size: var(--h2-font-size);
 	font-weight: var(--font-semi-bold);
 	color: var(--title-color);
 }
 
-.about_info-name{
+.about_info-name {
 	font-size: var(--smaller-font-size);
 }
 
 .about_info-title,
-.about_info-name{
+.about_info-name {
 	display: block;
 	text-align: center;
 }
 
-.about_buttons{
+.about_buttons {
 	display: flex;
 	justify-content: center;
 }
 
 /*==================== SKILLS ====================*/
 
-.skills_container{
+.skills_container {
 	row-gap: 0;
 }
 
-.skills_header{
+.skills_header {
 	display: flex;
 	align-items: center;
 	margin-bottom: var(--mb-2-5);
 }
 
 .skills_icon,
-.skills_arrow{
+.skills_arrow {
 	font-size: 2rem;
 	color: var(--first-color);
 }
 
-.skills_icon{
+.skills_icon {
 	margin-right: var(--mb-0-75);
 }
 
-.skills_title{
+.skills_title {
 	font-size: var(--h3-font-size);
 }
 
-.skills_arrow{
+.skills_arrow {
 	margin-left: auto;
 	transition: .4s;
 }
 
-.skills_list{
+.skills_list {
 	row-gap: 1.5rem;
 	padding-left: 2.7rem;
 }
 
-.skills_title{
+.skills_title {
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: var(--mb-0-25);
 }
 
-.skills_name{
+.skills_name {
 	font-size: var(--normal-font-size);
 }
 
-.skills_close .skills_list{
+.skills_close .skills_list {
 	height: 0;
 	overflow: hidden;
 }
 
-.skills_open .skills_list{
+.skills_open .skills_list {
 	height: max-content;
 	margin-bottom: var(--mb-2-5);
 }
 
-.skills_open .skills_arrow{
+.skills_open .skills_arrow {
 	transform: rotate(-180deg);
 }
