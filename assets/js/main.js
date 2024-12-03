@@ -51,3 +51,5 @@ skillsHeader.forEach((el) =>{
   el.addEventListener("click", toggleSkills)
 })
 
+/*==================== SLIDE PORTFOLIO ====================*/
+
